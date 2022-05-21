@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cub.eai</groupId>
+  <artifactId>camel-saga-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <modules>
+    <module>camel-saga-app</module>
+    <module>camel-saga-flight-service</module>
+    <module>camel-saga-payment-service</module>
+	<module>camel-saga-train-service</module>
+  </modules>
+
+</project>
+
